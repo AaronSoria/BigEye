@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BigEye - Inicio</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(72, 72, 72);
+selection-background-color: rgb(47, 111, 126);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="EntryVideoPath">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(229, 229, 229);</string>
+    </property>
+    <property name="placeholderText">
+     <string comment="Ingrese su video" extracomment="Ingrese su video"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonSearchVideo">
+    <property name="geometry">
+     <rect>
+      <x>427</x>
+      <y>20</y>
+      <width>151</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 37, 97);
+border-color: rgb(47, 111, 126);
+color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Buscar Video</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="EntryResultPath">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(229, 229, 229);</string>
+    </property>
+    <property name="placeholderText">
+     <string comment="¿Donde guardar los resultados?" extracomment="¿Donde guardar los resultados?"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonSetDestinyResults">
+    <property name="geometry">
+     <rect>
+      <x>427</x>
+      <y>80</y>
+      <width>151</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 37, 97);
+border-color: rgb(47, 111, 126);
+color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Elegir Carpeta</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonAnalyze">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>290</y>
+      <width>151</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 37, 97);
+border-color: rgb(47, 111, 126);
+color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Analizar</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
