@@ -1,1 +1,4 @@
 # BigEye
+librerias necesarias
+PyQt5==5.15.0
+PyQt5-sip==12.8.0

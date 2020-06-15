@@ -1,4 +1,5 @@
 from BigEyeInit_ui import *
+
 class BigEyeInitView(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self, *args, **kwargs):
         QtWidgets.QMainWindow.__init__(self, *args, **kwargs)
