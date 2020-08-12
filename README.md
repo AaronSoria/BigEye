@@ -1,5 +1,8 @@
 # BigEye
-librerias necesarias:
+
+A Python tool that analyzes video from security cameras and marks the time when people appear
+
+package:
 
 cycler==0.10.0
 
